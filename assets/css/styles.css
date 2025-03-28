@@ -10,12 +10,14 @@
   }
 
   .header-row {
-    background-color: rgb(223, 247, 242);
+    background-color: rgb(9, 2, 2);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 100;
   }
 
   .header-row .box {
@@ -39,11 +41,19 @@
   .row {
     padding: 100px;
     height: 75%;
+    background-color: rgb(18, 93, 155);
   }
 
   .row .box {
     padding: 20px;
     margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .r{
+    padding:100px;
+    height:75%;
+    background-color: white;
   }
 
   .footer {
@@ -55,14 +65,27 @@
   }
 
   button {
-    background-color: #fadc57;
-    padding: 10px;
-    color: white;
-    border: 2px  #e5ed05;
-    border-radius: 10%;
+    background-color: #1fd0e4;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
   }
   
-  button:hover{
-    background-color:  #f09f3c;
-    color: gray;
+  button:hover {
+    background-color: #e6b800;
   }
+  
+  img {
+    max-height: 200px;
+    width: auto;
+}
+/* .img2{
+height: 400px;
+width: 400px;
+} */
+
+
